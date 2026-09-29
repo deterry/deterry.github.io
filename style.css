@@ -49,3 +49,7 @@ footer a{color:var(--muted)}
   nav{margin-bottom:2.5rem}
   .news li{grid-template-columns:1fr; gap:0}
 }
+.intro{display:flex; align-items:center; gap:1.75rem; margin-bottom:2.5rem}
+.intro .links{margin-bottom:0}
+.portrait{width:9rem; height:9rem; object-fit:cover; border-radius:50%; flex-shrink:0}
+@media (max-width:520px){ .intro{flex-direction:column; align-items:flex-start; gap:1.25rem} }
