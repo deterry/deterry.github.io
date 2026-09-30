@@ -62,11 +62,22 @@ h1 {
 .links {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 1.25rem;
   font-size: 1rem;
   margin: 0 0 2.5rem;
   padding: 0;
   list-style: none;
+}
+.links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.links .icon {
+  width: 1.15rem;
+  height: 1.15rem;
+  fill: currentColor;
+  flex-shrink: 0;
 }
 
 p { margin: 0 0 1.1rem; }
@@ -78,7 +89,7 @@ h2 {
   border-top: 1px solid var(--rule);
 }
 
-/* Centered Header / Headshot Block */
+/* Centered Header & Headshot */
 .intro {
   display: flex;
   flex-direction: column;
